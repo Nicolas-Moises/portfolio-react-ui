@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply scroll-smooth transition-colors duration-100
+}
+body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-50 antialiased
+}
+
+::-webkit-scrollbar {
+    width: 0.3rem;
+    background-color: #121214;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #202024;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-600
+}
+
+.blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+  }
+  
+.pink__gradient {
+background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+filter: blur(900px);
+}
+
+.white__gradient {
+background: rgba(150, 150, 255, 0.6);
+filter: blur(650px);
+}
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.link-nav.active {
+  @apply text-green-500 dark:text-blue-300
+}
+
+.scale-in {
+  transform-origin: var(--radix-hover-card-content-transform-origin);
+  animation: scaleIn 0.5s ease-out;
+}
+
+.menu-sidebar {
+  animation: menu-animate 0.5s ease;
+}
+
+@keyframes menu-animate {
+  from {
+      right: -100vw;
+  }
+
+  to {
+      right: 0;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+    html {
+      font-size: 85%;
+    }
+}
