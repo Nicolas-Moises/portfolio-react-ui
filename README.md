@@ -16,7 +16,10 @@ Aplicação relacionad ao meu portfólio.
 
 ## 🚀 Como executar
 
-Ao acessar a pasta, é preciso baixar os pacotes com o gerenciador de sua preferencia.
+**Para que esse projeto funcione corretamente, é preciso estar com o servidor rodando.**
+
+- Instale os pacotes com `npm install`.
+- Execute `npm run dev` para iniciar o cliente web.
 
 ## 🔖 Layout
 
