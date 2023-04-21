@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="w-full max-w-[1300px] flex flex-col lg:flex-row items-center mx-auto px-6 gap-20 mt-44"
+      className="w-full max-w-[calc(100vw-((100vw-1300px)/2))] flex flex-col lg:flex-row items-center ml-auto px-6 gap-20 mt-44"
     >
       <div>
         <span className="text-sm flex gap-2 items-center dark:text-gray-300 text-gray-400 mb-4 font-semibold justify-center lg:justify-start">

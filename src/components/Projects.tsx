@@ -1,13 +1,25 @@
 import { projects } from '../constants/projects'
 import { Project } from './Project'
 
+import { useKeenSlider } from 'keen-slider/react'
+
+import 'keen-slider/keen-slider.min.css'
+
 export function Projects() {
+  const [sliderRef] = useKeenSlider({
+    loop: true,
+    slides: {
+      perView: 3,
+      spacing: 48,
+    },
+  })
+
   return (
     <section
       id="projects"
-      className="w-full max-w-[1300px] mx-auto px-6 mb-44 relative bg-grid bg-no-repeat"
+      className="w-full px-6 mb-44 relative bg-grid bg-no-repeat"
     >
-      <div className="w-full flex flex-col">
+      <div className="w-full flex flex-col  max-w-[1300px] mx-auto">
         <span className="text-sm text-blue-500 text-center mb-4 font-semibold">
           Portfólio
         </span>
@@ -16,9 +28,17 @@ export function Projects() {
           <br />
           até aqui
         </h1>
+
+        <p className="text-center dark:text-gray-300 text-gray-400">
+          Abaixo estão alguns dos projetos que construí recentemente visando
+          estudo e <br />o aperfeiçoamento de algumas técnicas.
+        </p>
       </div>
 
-      <div className="flex flex-wrap justify-around gap-x-6 gap-y-14 mt-10">
+      <div
+        className="mt-10 max-w-[calc(100vw-((100vw-1180px)/2))] ml-auto keen-slider"
+        ref={sliderRef}
+      >
         {projects.map((project) => {
           return (
             <Project

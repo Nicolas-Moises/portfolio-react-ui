@@ -73,12 +73,12 @@ export function Footer() {
             © 2023 Desenvolvido por Nicolas Moises - Todos os direitos
             reservados.
           </span>
-          <a
-            href="#"
+          <button
+            disabled
             className="text-gray-200 hover:underline hover:text-gray-500 dark:hover:text-white text-sm"
           >
             Políticas de privacidade
-          </a>
+          </button>
         </div>
       </div>
       <div className="bottom-14 left-[20%] absolute -z-[50] w-80 h-1/2 rounded-full blue__gradient" />

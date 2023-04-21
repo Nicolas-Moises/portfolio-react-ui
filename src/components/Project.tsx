@@ -11,11 +11,11 @@ export interface ProjectProps {
 
 export function Project(props: ProjectProps) {
   return (
-    <div className="md:overflow-hidden rounded-lg w-[500px] md:min-h-[300px] relative group drop-shadow-xl md:h-full md:max-h-72">
+    <div className="md:overflow-hidden rounded-lg w-[500px] md:min-h-[400px] relative group drop-shadow-xl md:h-full md:max-h-72 keen-slider__slide">
       <img
         src={props.imgURL}
-        className="object-cover w-full md:group-hover:scale-105 transition-all ease md:group-hover:blur-md md:min-h-[300px]"
-        alt=""
+        className="object-cover w-full md:group-hover:scale-105 transition-all ease md:group-hover:blur-md md:min-h-[400px]"
+        alt="Project preview"
       />
 
       <span className="relative md:absolute md:bottom-[-100%] w-full md:bg-gradient-to-t from-black p-5 group-hover:bottom-0 transition-all ease">
