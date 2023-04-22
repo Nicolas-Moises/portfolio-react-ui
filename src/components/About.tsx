@@ -42,13 +42,15 @@ export function About() {
           sagittis leo.
         </p>
         <div className="inline-flex w-full justify-center xl:justify-start">
-          <button
+          <a
+            href="../../assets/curriculo.pdf"
+            download
             className="flex items-center gap-2 px-10 py-4 bg-transparent border-2 border-green-500 dark:border-blue-500 rounded mt-6 hover:bg-green-500 hover:text-white transition-all 
         ease hover:shadow-2xl hover:shadow-green-400/10 font-bold text-green-500 dark:text-blue-300 dark:hover:text-white dark:hover:bg-blue-500"
           >
             <CloudArrowDown size={24} weight="bold" />
             Baixar meu currículo
-          </button>
+          </a>
         </div>
       </div>
     </section>

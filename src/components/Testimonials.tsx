@@ -1,5 +1,13 @@
 import logoUp from '../assets/logo-testimonial.png'
-import { personThree, personOne, personTwo, personFour } from '../assets'
+import {
+  personThree,
+  personOne,
+  personTwo,
+  personFour,
+  personFive,
+  personSix,
+  personSeven,
+} from '../assets'
 
 export function Testimonials() {
   return (
@@ -39,7 +47,7 @@ export function Testimonials() {
         </div>
 
         <div className="dark:bg-gray-800 bg-white rounded-lg grid lg:row-end-4 sm:row-span-3 sm:row-start-2 lg:row-start-1 sm:col-span-2 drop-shadow-xl">
-          <p className="border-b border-gray-700 text-gray-500 dark:text-gray-100 p-5">
+          <p className="border-b dark:border-gray-700 border-gray-300 text-gray-500 dark:text-gray-100 p-5">
             “Recomendo entusiasmado o Nicolas como um programador frontend
             altamente qualificado para oportunidades na área de Tecnologia da
             Informação. Tive o prazer de trabalhar com ele em um projeto recente
@@ -130,14 +138,14 @@ export function Testimonials() {
             com alto grau de transparência sobre dificuldades ou adversidades.”
           </p>
           <div className="flex gap-2 items-center mt-8">
-            <img src={personOne} alt="" />
+            <img src={personFive} alt="" />
 
             <div>
               <h4 className="font-bold dark:text-white text-gray-600">
-                Lídia Morais
+                Carlos
               </h4>
               <p className="text-sm dark:text-gray-300 text-gray-400">
-                Analista CS e mídias jr.
+                Desenvolvedor Flutter pl.
               </p>
             </div>
           </div>
@@ -151,14 +159,18 @@ export function Testimonials() {
             atendeu perfeitamente às nossas necessidades.”
           </p>
           <div className="flex gap-2 items-center mt-8">
-            <img src={personOne} alt="" />
+            <img
+              src={personSix}
+              className="w-12 h-12 object-cover rounded-full"
+              alt=""
+            />
 
             <div>
               <h4 className="font-bold dark:text-white text-gray-600">
-                Lídia Morais
+                Fernando Henrique
               </h4>
               <p className="text-sm dark:text-gray-300 text-gray-400">
-                Analista CS e mídias jr.
+                Desenvolvedor FullStack pl.
               </p>
             </div>
           </div>
@@ -173,14 +185,18 @@ export function Testimonials() {
             competente e dedicado.”
           </p>
           <div className="flex gap-2 items-center mt-8">
-            <img src={personOne} alt="" />
+            <img
+              src={personSeven}
+              className="w-12 h-12 object-cover rounded-full"
+              alt=""
+            />
 
             <div>
               <h4 className="font-bold dark:text-white text-gray-600">
-                Lídia Morais
+                Lucas Luciano
               </h4>
               <p className="text-sm dark:text-gray-300 text-gray-400">
-                Analista CS e mídias jr.
+                Analista CX jr.
               </p>
             </div>
           </div>

@@ -8,9 +8,19 @@ import 'keen-slider/keen-slider.min.css'
 export function Projects() {
   const [sliderRef] = useKeenSlider({
     loop: true,
-    slides: {
-      perView: 3,
-      spacing: 48,
+    breakpoints: {
+      '(min-width: 700px)': {
+        slides: {
+          perView: 2,
+          spacing: 48,
+        },
+      },
+      '(min-width: 1100px)': {
+        slides: {
+          perView: 3,
+          spacing: 48,
+        },
+      },
     },
   })
 

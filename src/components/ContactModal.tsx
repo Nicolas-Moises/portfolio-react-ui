@@ -7,7 +7,7 @@ export function ContactModal() {
   return (
     <Dialog.Portal>
       <Dialog.Overlay className="fixed inset-0 bg-black/30 z-[9999]" />
-      <Dialog.Content className="fixed top-0 right-0 h-screen bg-white dark:bg-gray-800 px-6 py-14 z-[99999]">
+      <Dialog.Content className="fixed top-0 right-0 h-screen bg-white dark:bg-gray-800 px-6 py-14 z-[99999] overflow-y-auto">
         <Dialog.Title className="text-xl font-bold dark:text-gray-100 text-gray-600 mb-4">
           Preencha os campos abaixo
         </Dialog.Title>

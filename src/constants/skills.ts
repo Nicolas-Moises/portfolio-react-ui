@@ -56,7 +56,7 @@ export const skills = [
   },
   {
     id: 12,
-    tech: 'Fastify',
+    tech: 'React Native',
     progress: 45,
   },
 ]

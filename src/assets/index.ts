@@ -14,8 +14,8 @@ import personTwo from '../assets/person-2.jpg'
 import personThree from '../assets/person-3.png'
 import personFour from '../assets/person-4.png'
 import personFive from '../assets/person-5.png'
-// import personSix from '../assets/person-6.png'
-// import personSeven from '../assets/person-7.png'
+import personSix from '../assets/person-6.jpg'
+import personSeven from '../assets/person-7.jpg'
 
 export {
   projectOne,
@@ -34,6 +34,6 @@ export {
   personThree,
   personFour,
   personFive,
-  // personSix,
-  // personSeven,
+  personSix,
+  personSeven,
 }
