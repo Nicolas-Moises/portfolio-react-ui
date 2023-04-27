@@ -32,14 +32,15 @@ export function About() {
           <br /> minhas paixões
         </h1>
         <p className="w-auto xl:w-[550px] dark:text-gray-300 text-gray-400 leading-relaxed text-center xl:text-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a elit
-          quis purus efficitur porta in non nibh. Curabitur et nisl vehicula,
-          congue sapien quis, pharetra nibh. Nunc fringilla risus vel velit
-          ultrices fermentum vel sed arcu. Phasellus sodales tincidunt eleifend.
-          Ut vestibulum at mauris nec dapibus. Ut porta arcu sed diam laoreet,
-          nec accumsan nisl faucibus. Duis magna nibh, molestie sed arcu quis,
-          ullamcorper lobortis tellus. Curabitur sit amet pulvinar odio, at
-          sagittis leo.
+          Hello world! Agradeço pela visita e espero que gostem desse projeto
+          que decidi construir para inovar em meu portfólio. Hoje estou na busca
+          de realizar a transição de carreira. A tecnologia com certeza mudou
+          minha vida e descobri que codar é minha paixão! Ainda não tenho
+          experiência sólida no mercado de trabalho, tirando os freelancers que
+          venho realizando até aqui e projetos de estudo pessoal para
+          desenvolvimento e especialização. Peço que baixem meu currículo
+          clicando no botão abaixo ou me chamem por algum de meus contatos para
+          batermos um papo.
         </p>
         <div className="inline-flex w-full justify-center xl:justify-start">
           <a
