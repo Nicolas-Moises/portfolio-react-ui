@@ -4,13 +4,17 @@ import previewHeroMobile from '../assets/preview-hero-mobile.png'
 
 import * as Dialog from '@radix-ui/react-dialog'
 import { ContactModal } from './ContactModal'
+import { HeroPattern } from './HeroPattern'
+
+import Balance from 'react-wrap-balancer'
 
 export function Hero() {
   return (
     <section
       id="hero"
-      className="w-full max-w-[calc(100vw-((100vw-1300px)/2))] flex flex-col lg:flex-row items-center ml-auto px-6 gap-20 mt-44"
+      className="w-full max-w-[calc(100vw-((100vw-1300px)/2))] flex flex-col lg:flex-row items-center ml-auto px-6 gap-20 mt-44 relative"
     >
+      <HeroPattern />
       <div>
         <span className="text-sm flex gap-2 items-center dark:text-gray-300 text-gray-400 mb-4 font-semibold justify-center lg:justify-start">
           Olá, me chamo
@@ -18,9 +22,11 @@ export function Hero() {
             Nicolas Moises
           </span>
         </span>
-        <h1 className="font-black text-6xl mb-8 dark:text-white text-gray-600 text-center lg:text-left ">
-          Avançando o <br /> nível do{' '}
-          <span className="dark:text-blue-300 text-green-500">Front-end</span>
+        <h1 className="font-black text-6xl mb-8 dark:text-white text-gray-600 text-center lg:text-left tracking-tighter max-w-xl">
+          <Balance>
+            Avançando o nível do{' '}
+            <span className="dark:text-blue-300 text-green-500">Front-end</span>
+          </Balance>
         </h1>
         <p className="w-auto lg:w-[550px] dark:text-gray-300 text-gray-400 leading-relaxed text-center lg:text-left ">
           Sou um desenvolvedor Front-end em início de carreira em busca de uma

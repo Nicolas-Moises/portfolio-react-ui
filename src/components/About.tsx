@@ -2,6 +2,8 @@ import { CloudArrowDown, MouseSimple } from 'phosphor-react'
 import previewAbout from '../assets/preview-about.png'
 import explore from '../assets/explore.svg'
 
+import Balance from 'react-wrap-balancer'
+
 export function About() {
   return (
     <section
@@ -27,9 +29,8 @@ export function About() {
         <span className="text-sm flex gap-2 items-center text-blue-500 mb-4 font-semibold justify-center xl:justify-start">
           Sobre mim
         </span>
-        <h1 className="font-bold text-4xl mb-8 dark:text-white text-gray-600 text-center xl:text-left">
-          Criar e desenvolver são
-          <br /> minhas paixões
+        <h1 className="font-bold text-4xl mb-8 dark:text-white text-gray-600 text-center xl:text-left max-w-xl">
+          <Balance>Criar e desenvolver são minhas paixões</Balance>
         </h1>
         <p className="w-auto xl:w-[550px] dark:text-gray-300 text-gray-400 leading-relaxed text-center xl:text-left">
           Hello world! Agradeço pela visita e espero que gostem desse projeto

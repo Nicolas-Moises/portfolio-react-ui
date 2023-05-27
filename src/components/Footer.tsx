@@ -1,6 +1,5 @@
 import {
   Envelope,
-  FacebookLogo,
   GithubLogo,
   InstagramLogo,
   LinkedinLogo,
@@ -13,15 +12,6 @@ export function Footer() {
       <div className="flex flex-col gap-8 items-center sm:items-start w-full">
         <nav>
           <ul className="flex items-center gap-8">
-            <li className="">
-              <a
-                href="https://www.facebook.com/nicolas.moises.3/"
-                className="p-4 rounded bg-transparent hover:text-green-500 transition-all text-gray-500 dark:text-gray-100 ease hover:translate-y-1 dark:hover:text-green-500"
-              >
-                <FacebookLogo size={24} weight="fill" />
-              </a>
-            </li>
-
             <li className="">
               <a
                 href="https://www.linkedin.com/in/nicolas-moises-ba91ba1a3/"

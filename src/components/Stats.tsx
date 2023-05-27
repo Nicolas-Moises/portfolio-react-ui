@@ -1,7 +1,7 @@
 export function Stats() {
   return (
     <section className="w-full max-w-[1300px] mx-auto px-6 drop-shadow-2xl">
-      <div className="w-full py-14 px-20 flex flex-col gap-10 md:gap-0 md:flex-row justify-around bg-white dark:bg-white/5 rounded-xl">
+      <div className="w-full py-14 px-20 flex flex-col gap-10 md:gap-0 md:flex-row justify-around bg-white dark:bg-gray-900 rounded-xl">
         <div className="flex flex-col items-center gap-4">
           <span className="text-5xl font-black text-gray-500 dark:text-gray-100 ">
             +1

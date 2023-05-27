@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 * {
-    @apply scroll-smooth transition-colors duration-100
+    @apply scroll-smooth 
 }
 body {
-    @apply bg-gray-50 dark:bg-gray-900 text-gray-50 antialiased
+    @apply bg-gray-50 dark:bg-[#09090a] text-gray-50 antialiased transition-colors duration-100
 }
 
 ::-webkit-scrollbar {

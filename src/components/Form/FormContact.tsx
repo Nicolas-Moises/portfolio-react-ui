@@ -6,7 +6,9 @@ import emailjs from '@emailjs/browser'
 
 import { useForm, FormProvider } from 'react-hook-form'
 import { FormEvent, useState } from 'react'
-import { ArrowRight, CheckCircle, CircleNotch } from 'phosphor-react'
+import { ArrowRight, CircleNotch } from 'phosphor-react'
+
+import success from '../../assets/success.gif'
 
 const createUserSchema = z.object({
   name: z
@@ -166,14 +168,10 @@ export function FormContact() {
             Mensagem enviada com sucesso! Basta aguardar meu contato!😁
           </strong>
           <div className="relative w-20 h-20">
-            <CheckCircle
-              className="animate-ping absolute text-green-500 h-full w-full"
-              weight="fill"
-            />
-
-            <CheckCircle
-              weight="fill"
-              className=" text-green-500 h-full w-full"
+            <img
+              src={success}
+              alt="Animation-success"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>

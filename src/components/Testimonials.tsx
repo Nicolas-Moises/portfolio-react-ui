@@ -32,7 +32,7 @@ export function Testimonials() {
             muito positiva e estamos ansiosos para colaborar novamente no
             futuro.”
           </p>
-          <div className="flex gap-2 items-center mt-8">
+          <div className="flex gap-2 items-center ">
             <img src={personOne} alt="" />
 
             <div>
@@ -97,7 +97,7 @@ export function Testimonials() {
             que em início de carreira. Estamos extremamente satisfeitos com o
             seu trabalho.
           </p>
-          <div className="flex gap-2 items-center mt-8">
+          <div className="flex gap-2 items-center ">
             <img src={personThree} alt="" />
 
             <div>
